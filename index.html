@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f8ee">
+  <title>Bloom & Match — Garden Mahjong</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">A LITTLE NATURE, A LITTLE MAGIC</p>
+      <h1>🌿 Bloom & Match</h1>
+      <p class="subtitle">Match nature tiles. Grow a garden of your own.</p>
+    </div>
+    <div class="seed-counter">
+      <span>🌱</span>
+      <div>
+        <small>Your seeds</small>
+        <strong id="seeds">0</strong>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="game-panel">
+      <div class="level-bar">
+        <div>
+          <span class="level-label">YOUR ADVENTURE</span>
+          <h2 id="levelName">Sunny Meadow</h2>
+          <p id="levelDescription">A peaceful place to begin.</p>
+        </div>
+        <div class="stats">
+          <div><strong id="moves">0</strong><small>Moves</small></div>
+          <div><strong id="pairs">0</strong><small>Pairs left</small></div>
+        </div>
+      </div>
+
+      <div class="progress-track">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+
+      <div class="toolbar">
+        <button id="hintBtn" class="button button-light">💡 Hint</button>
+        <button id="newGameBtn" class="button button-light">🔄 New Game</button>
+        <button id="gardenBtn" class="button button-primary">🌷 My Garden</button>
+      </div>
+
+      <div class="board-heading">
+        <span>FIND THE MATCHING PAIRS</span>
+        <span id="boardMessage" role="status" aria-live="polite">
+          Choose any available tile to begin.
+        </span>
+      </div>
+
+      <div class="board-viewport">
+        <div id="board" class="game-board" aria-label="Mahjong game board"></div>
+      </div>
+
+      <div class="legend">
+        <span><i class="legend-dot available"></i> Available</span>
+        <span><i class="legend-dot blocked"></i> Blocked</span>
+        <span><i class="legend-dot selected"></i> Selected</span>
+      </div>
+
+      <p class="help-text">
+        Match two identical pictures to remove them. A tile is playable
+        when it is not covered and has at least one open horizontal side.
+        Every match earns a seed for your garden.
+      </p>
+    </section>
+
+    <aside id="gardenPanel" class="garden-panel">
+      <div class="garden-heading">
+        <div>
+          <span class="level-label">YOUR LITTLE WORLD</span>
+          <h2>My Garden 🌼</h2>
+        </div>
+        <span id="gardenLevel" class="garden-level">Level 1</span>
+      </div>
+
+      <p class="garden-intro">
+        Earn seeds by matching tiles. Spend them on decorations and
+        watch your garden grow.
+      </p>
+
+      <div class="garden-scene">
+        <div class="garden-sky">
+          <span>☀️</span><span>☁️</span><span>🦋</span>
+        </div>
+        <div id="gardenItems" class="garden-items">
+          <p class="garden-empty">Your garden is waiting for its first flower!</p>
+        </div>
+        <div class="garden-ground"></div>
+      </div>
+
+      <h3 class="shop-heading">🌱 Garden Shop</h3>
+
+      <div class="shop-grid">
+        <button class="shop-item" data-item="flower" type="button">
+          <span class="shop-emoji">🌷</span>
+          <strong>Flower</strong>
+          <small>5 seeds</small>
+        </button>
+        <button class="shop-item" data-item="tree" type="button">
+          <span class="shop-emoji">🌳</span>
+          <strong>Tree</strong>
+          <small>10 seeds</small>
+        </button>
+        <button class="shop-item" data-item="pond" type="button">
+          <span class="shop-emoji">💧</span>
+          <strong>Pond</strong>
+          <small>15 seeds</small>
+        </button>
+        <button class="shop-item" data-item="bench" type="button">
+          <span class="shop-emoji">🪑</span>
+          <strong>Bench</strong>
+          <small>20 seeds</small>
+        </button>
+        <button class="shop-item" data-item="butterflies" type="button">
+          <span class="shop-emoji">🦋</span>
+          <strong>Butterflies</strong>
+          <small>25 seeds</small>
+        </button>
+      </div>
+
+      <p id="gardenMessage" class="garden-message" role="status" aria-live="polite">
+        Your first seed is just one match away!
+      </p>
+    </aside>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true"
+         aria-labelledby="modalTitle" aria-describedby="modalText">
+      <div id="modalEmoji" class="modal-emoji">🌸</div>
+      <h2 id="modalTitle">Garden Growing!</h2>
+      <p id="modalText">You completed this level.</p>
+      <button id="modalButton" class="button button-primary" type="button">
+        Next Level
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    Made for quiet moments and little victories 🌿
+    <span>Your progress is saved in this browser.</span>
+  </footer>
+</body>
+</html>

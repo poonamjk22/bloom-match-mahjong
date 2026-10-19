@@ -1,0 +1,57 @@
+BLOOM MATCH MAHJONG — LICENSE AND USAGE TERMS
+
+Copyright (c) 2026. All rights reserved.
+
+1. LICENSE GRANT
+
+Upon purchasing Bloom Match Mahjong, the buyer receives a non-exclusive, non-transferable license to use the game files for personal and permitted commercial projects, subject to the terms below.
+
+2. PERMITTED USE
+
+The buyer may:
+- Download and use the game files.
+- Play the game for personal enjoyment.
+- Modify the HTML, CSS, and JavaScript for personal use.
+- Use modified portions of the code in the buyer's own projects.
+- Use the game in demonstrations, portfolios, or educational activities.
+- Use the game as part of a commercial project, provided the original or substantially unchanged game files are not redistributed or resold.
+
+3. RESTRICTIONS
+
+The buyer may not:
+- Resell, redistribute, share, or publicly upload the original game files.
+- Redistribute or resell the game source code, whether modified or unmodified, as a standalone product or template.
+- Share the purchased ZIP file with other people.
+- Claim authorship of the original, unmodified game.
+- Sell the original game or a substantially unchanged version as their own product.
+- Remove this license and present the original game files as exclusively their own creation.
+
+4. OWNERSHIP
+
+POONAM J K retains ownership of the original game files and original contributions, subject to any third-party rights that may apply.
+
+This license grants permission to use the files; it does not transfer copyright ownership to the buyer.
+
+5. THIRD-PARTY MATERIALS
+
+Any third-party libraries, assets, fonts, or other materials included in the game remain subject to their respective licenses. This license does not override third-party rights.
+
+6. NO WARRANTY
+
+The game is provided "AS IS", without warranties of any kind, to the extent permitted by applicable law. The creator does not guarantee uninterrupted operation, compatibility with every device, or error-free gameplay.
+
+7. LIMITATION OF LIABILITY
+
+To the extent permitted by applicable law, the creator is not liable for indirect or consequential losses arising from the use of the game.
+
+8. TERMINATION
+
+If the buyer materially violates these terms, the license may be terminated subject to applicable law. Upon termination, the buyer must stop using and distributing the game files to the extent legally required.
+
+9. ACCEPTANCE
+
+Purchasing, downloading, or using the game constitutes acceptance of these license terms, to the extent permitted by applicable law.
+
+For questions about permissions or licensing, contact the seller through the marketplace where the game was purchased.
+
+END OF LICENSE
